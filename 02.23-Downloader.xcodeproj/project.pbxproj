@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F219EEA11A9B037E005F109B /* MultiThreadDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F219EEA01A9B037E005F109B /* MultiThreadDownloader.m */; };
 		F2D1DCC91A9AE5E200E28CC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D1DCC81A9AE5E200E28CC5 /* main.m */; };
 		F2D1DCCC1A9AE5E200E28CC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D1DCCB1A9AE5E200E28CC5 /* AppDelegate.m */; };
 		F2D1DCCF1A9AE5E200E28CC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D1DCCE1A9AE5E200E28CC5 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		F2D1DCD41A9AE5E200E28CC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D1DCD31A9AE5E200E28CC5 /* Images.xcassets */; };
 		F2D1DCD71A9AE5E200E28CC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D1DCD51A9AE5E200E28CC5 /* LaunchScreen.xib */; };
 		F2D1DCE31A9AE5E200E28CC5 /* _2_23_DownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D1DCE21A9AE5E200E28CC5 /* _2_23_DownloaderTests.m */; };
+		F2D1DCEE1A9AE5F700E28CC5 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D1DCED1A9AE5F700E28CC5 /* Downloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F219EE9F1A9B037E005F109B /* MultiThreadDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThreadDownloader.h; sourceTree = "<group>"; };
+		F219EEA01A9B037E005F109B /* MultiThreadDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadDownloader.m; sourceTree = "<group>"; };
 		F2D1DCC31A9AE5E200E28CC5 /* 02.23-Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02.23-Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D1DCC71A9AE5E200E28CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2D1DCC81A9AE5E200E28CC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		F2D1DCDC1A9AE5E200E28CC5 /* 02.23-DownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02.23-DownloaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D1DCE11A9AE5E200E28CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2D1DCE21A9AE5E200E28CC5 /* _2_23_DownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_23_DownloaderTests.m; sourceTree = "<group>"; };
+		F2D1DCEC1A9AE5F700E28CC5 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		F2D1DCED1A9AE5F700E28CC5 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				F2D1DCD31A9AE5E200E28CC5 /* Images.xcassets */,
 				F2D1DCD51A9AE5E200E28CC5 /* LaunchScreen.xib */,
 				F2D1DCC61A9AE5E200E28CC5 /* Supporting Files */,
+				F2D1DCEC1A9AE5F700E28CC5 /* Downloader.h */,
+				F2D1DCED1A9AE5F700E28CC5 /* Downloader.m */,
+				F219EE9F1A9B037E005F109B /* MultiThreadDownloader.h */,
+				F219EEA01A9B037E005F109B /* MultiThreadDownloader.m */,
 			);
 			path = "02.23-Downloader";
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 			files = (
 				F2D1DCCF1A9AE5E200E28CC5 /* ViewController.m in Sources */,
 				F2D1DCCC1A9AE5E200E28CC5 /* AppDelegate.m in Sources */,
+				F219EEA11A9B037E005F109B /* MultiThreadDownloader.m in Sources */,
+				F2D1DCEE1A9AE5F700E28CC5 /* Downloader.m in Sources */,
 				F2D1DCC91A9AE5E200E28CC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +424,7 @@
 				F2D1DCE81A9AE5E200E28CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2D1DCE91A9AE5E200E28CC5 /* Build configuration list for PBXNativeTarget "02.23-DownloaderTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				F2D1DCEB1A9AE5E200E28CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
